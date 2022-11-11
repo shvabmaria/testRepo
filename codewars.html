@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var countSheep = function (num) {
+                let string = '';
+
+                for (i = 0; i <= num; i++) {
+                    string += `${i} sheep...`
+                }
+
+                return string;
+            }
+
+            let calculator = {
+
+                read(a, b) {
+                    this.a = a;
+                    this.b = b;
+                    return this;
+                },
+
+                
+                sum() {
+                    return this.a + this.b;
+                }
+
+            }
+    </script>
+</body>
+</html>
